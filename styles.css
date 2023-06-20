@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "kremlin";
+  src: url(kremlin.ttf);
+}
+
+body {
+  font-family: "kremlin", Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+  overflow: hidden; 
+}
+
+#hero {
+  background-image: url(mars-background.gif);
+  background-size: cover;
+  color: #7f1717;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 0 4px black;
+  height: 90vh;
+}
+
+.underline {
+  border-bottom: 8px solid #7f1717;
+}
+
+#cccp-logo {
+  width: 200px;
+}
+
+#btn {
+  background-color: #7f1717;
+  color: rgb(207, 163, 102);
+  border: 0;
+  border-radius: 3px;
+  width: 150px;
+  height: 40px;
+  font-family: inherit;
+  font-size: large;
+  text-shadow: 0 0 7px rgb(10, 8, 8);
+}
+
+#terms {
+  color: rgb(57, 135, 187);
+  text-shadow: 0 0 4px rgb(1, 1, 1);
+  margin-top: auto;
+  padding: 0 0 20px 0;
+}
+
+#bottom {
+  padding: 20px;
+  background-color: #7f1717;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #7f1717;
+}
+
+
+
